@@ -1,0 +1,16 @@
+.total {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.5;
+    background-color: rgb(236, 236, 236);
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    background: rgb(218,237,216);
+    background: linear-gradient(0deg, rgba(218,237,216,0.45702030812324934) 0%, rgba(233,217,231,0.5018382352941176) 100%);
+}
+
+.total > div {
+    position: sticky;
+    top: 10px;
+}

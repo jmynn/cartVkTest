@@ -1,0 +1,20 @@
+.products {
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.loading, .error {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: rgb(2, 33, 75);
+}
+
+.error {
+    color: red;
+}
+
+.products > *[class*='product'] {
+    flex: 0 0 calc(25% - 20px);
+}
